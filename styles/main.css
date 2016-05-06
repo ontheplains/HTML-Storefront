@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', san-serif;
+}
+
+.home-page-header {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:25px;
+    background: #ccc;
+
+}
+.dev-logo {
+    align-self: center;
+}
+.nav-links {
+    width: 50%;
+    justify-content: space-between;
+    display: none;
+}
+.side-nav {
+    height: calc(100vh - 75px);
+    min-width: 250px;
+    max-width: 30%;
+    display: none;
+    background: #ccc;
+
+}
+.nav-links ul {
+    display: flex;
+    width: 100%;
+
+}
+.nav-links ul li{
+    width: 25%;
+
+}
+.home-page-mid {
+    display: flex;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-container {
+    width: 50%;
+}
+
+.product-container img {
+    width: 100%;
+}
+
+.product-footer {
+    height: 58px;
+    display: flex;
+    padding:10px;
+    justify-content: space-between;
+}
+.title-container {
+    width:65%;
+}
+@media (min-width:900px) {
+    .HAM {
+        display:none;
+    }
+    .nav-links {
+        display:flex;
+    }
+    .side-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .product-container {
+        width:33%;
+    }
+}
+
+
